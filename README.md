@@ -8,4 +8,4 @@ I Am Here predicts when your screen is about to sleep. It activates the webcam m
 
 You can also instruct I Am Here to postpone standby by a number of minutes or hours, or to never let your computer sleep.
 
-[Download Here](https://jdevuyst.appspot.com/apps/2014/iamhere/iamhere.dmg)
+If you’re just interested in the app, and not the source code, you will want to download the DMG [here](https://jdevuyst.appspot.com/apps/2014/iamhere/iamhere.dmg).
