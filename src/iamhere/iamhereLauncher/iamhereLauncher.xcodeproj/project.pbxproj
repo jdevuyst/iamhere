@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E47DF1B18E87BC500078179 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E47DF1A18E87BC500078179 /* ServiceManagement.framework */; };
+		9EB69FA018E7261A006718B4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB69F9F18E7261A006718B4 /* Cocoa.framework */; };
+		9EB69FAA18E7261A006718B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9EB69FA818E7261A006718B4 /* InfoPlist.strings */; };
+		9EB69FAC18E7261A006718B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB69FAB18E7261A006718B4 /* main.m */; };
+		9EB69FB018E7261A006718B4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9EB69FAE18E7261A006718B4 /* Credits.rtf */; };
+		9EB69FB318E7261A006718B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB69FB218E7261A006718B4 /* AppDelegate.m */; };
+		9EB69FB618E7261A006718B4 /* LauncherMainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EB69FB418E7261A006718B4 /* LauncherMainMenu.xib */; };
+		9EB69FB818E7261A006718B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EB69FB718E7261A006718B4 /* Images.xcassets */; };
+		9EB69FBF18E7261A006718B4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB69FBE18E7261A006718B4 /* XCTest.framework */; };
+		9EB69FC018E7261A006718B4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB69F9F18E7261A006718B4 /* Cocoa.framework */; };
+		9EB69FC818E7261A006718B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9EB69FC618E7261A006718B4 /* InfoPlist.strings */; };
+		9EB69FCA18E7261A006718B4 /* iamhereLauncherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB69FC918E7261A006718B4 /* iamhereLauncherTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9EB69FC118E7261A006718B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EB69F9418E7261A006718B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EB69F9B18E7261A006718B4;
+			remoteInfo = iamhereLauncher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9E47DF1A18E87BC500078179 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		9EB69F9C18E7261A006718B4 /* iamhereLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iamhereLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EB69F9F18E7261A006718B4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		9EB69FA218E7261A006718B4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		9EB69FA318E7261A006718B4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9EB69FA418E7261A006718B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9EB69FA718E7261A006718B4 /* iamhereLauncher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iamhereLauncher-Info.plist"; sourceTree = "<group>"; };
+		9EB69FA918E7261A006718B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9EB69FAB18E7261A006718B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9EB69FAD18E7261A006718B4 /* iamhereLauncher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iamhereLauncher-Prefix.pch"; sourceTree = "<group>"; };
+		9EB69FAF18E7261A006718B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		9EB69FB118E7261A006718B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9EB69FB218E7261A006718B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9EB69FB518E7261A006718B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LauncherMainMenu.xib; sourceTree = "<group>"; };
+		9EB69FB718E7261A006718B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9EB69FBD18E7261A006718B4 /* iamhereLauncherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iamhereLauncherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EB69FBE18E7261A006718B4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9EB69FC518E7261A006718B4 /* iamhereLauncherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iamhereLauncherTests-Info.plist"; sourceTree = "<group>"; };
+		9EB69FC718E7261A006718B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9EB69FC918E7261A006718B4 /* iamhereLauncherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iamhereLauncherTests.m; sourceTree = "<group>"; };
+		9EB69FDC18E72645006718B4 /* iamhereLauncher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = iamhereLauncher.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EB69F9918E7261A006718B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E47DF1B18E87BC500078179 /* ServiceManagement.framework in Frameworks */,
+				9EB69FA018E7261A006718B4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EB69FBA18E7261A006718B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EB69FC018E7261A006718B4 /* Cocoa.framework in Frameworks */,
+				9EB69FBF18E7261A006718B4 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9EB69F9318E7261A006718B4 = {
+			isa = PBXGroup;
+			children = (
+				9EB69FA518E7261A006718B4 /* iamhereLauncher */,
+				9EB69FC318E7261A006718B4 /* iamhereLauncherTests */,
+				9EB69F9E18E7261A006718B4 /* Frameworks */,
+				9EB69F9D18E7261A006718B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9EB69F9D18E7261A006718B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EB69F9C18E7261A006718B4 /* iamhereLauncher.app */,
+				9EB69FBD18E7261A006718B4 /* iamhereLauncherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EB69F9E18E7261A006718B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E47DF1A18E87BC500078179 /* ServiceManagement.framework */,
+				9EB69F9F18E7261A006718B4 /* Cocoa.framework */,
+				9EB69FBE18E7261A006718B4 /* XCTest.framework */,
+				9EB69FA118E7261A006718B4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9EB69FA118E7261A006718B4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EB69FA218E7261A006718B4 /* AppKit.framework */,
+				9EB69FA318E7261A006718B4 /* CoreData.framework */,
+				9EB69FA418E7261A006718B4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		9EB69FA518E7261A006718B4 /* iamhereLauncher */ = {
+			isa = PBXGroup;
+			children = (
+				9EB69FDC18E72645006718B4 /* iamhereLauncher.entitlements */,
+				9EB69FB118E7261A006718B4 /* AppDelegate.h */,
+				9EB69FB218E7261A006718B4 /* AppDelegate.m */,
+				9EB69FB418E7261A006718B4 /* LauncherMainMenu.xib */,
+				9EB69FB718E7261A006718B4 /* Images.xcassets */,
+				9EB69FA618E7261A006718B4 /* Supporting Files */,
+			);
+			path = iamhereLauncher;
+			sourceTree = "<group>";
+		};
+		9EB69FA618E7261A006718B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9EB69FA718E7261A006718B4 /* iamhereLauncher-Info.plist */,
+				9EB69FA818E7261A006718B4 /* InfoPlist.strings */,
+				9EB69FAB18E7261A006718B4 /* main.m */,
+				9EB69FAD18E7261A006718B4 /* iamhereLauncher-Prefix.pch */,
+				9EB69FAE18E7261A006718B4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9EB69FC318E7261A006718B4 /* iamhereLauncherTests */ = {
+			isa = PBXGroup;
+			children = (
+				9EB69FC918E7261A006718B4 /* iamhereLauncherTests.m */,
+				9EB69FC418E7261A006718B4 /* Supporting Files */,
+			);
+			path = iamhereLauncherTests;
+			sourceTree = "<group>";
+		};
+		9EB69FC418E7261A006718B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9EB69FC518E7261A006718B4 /* iamhereLauncherTests-Info.plist */,
+				9EB69FC618E7261A006718B4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EB69F9B18E7261A006718B4 /* iamhereLauncher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EB69FCD18E7261A006718B4 /* Build configuration list for PBXNativeTarget "iamhereLauncher" */;
+			buildPhases = (
+				9EB69F9818E7261A006718B4 /* Sources */,
+				9EB69F9918E7261A006718B4 /* Frameworks */,
+				9EB69F9A18E7261A006718B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iamhereLauncher;
+			productName = iamhereLauncher;
+			productReference = 9EB69F9C18E7261A006718B4 /* iamhereLauncher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9EB69FBC18E7261A006718B4 /* iamhereLauncherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EB69FD018E7261A006718B4 /* Build configuration list for PBXNativeTarget "iamhereLauncherTests" */;
+			buildPhases = (
+				9EB69FB918E7261A006718B4 /* Sources */,
+				9EB69FBA18E7261A006718B4 /* Frameworks */,
+				9EB69FBB18E7261A006718B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EB69FC218E7261A006718B4 /* PBXTargetDependency */,
+			);
+			name = iamhereLauncherTests;
+			productName = iamhereLauncherTests;
+			productReference = 9EB69FBD18E7261A006718B4 /* iamhereLauncherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EB69F9418E7261A006718B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jonas De Vuyst";
+				TargetAttributes = {
+					9EB69F9B18E7261A006718B4 = {
+						DevelopmentTeam = BRU2PAMQ4T;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					9EB69FBC18E7261A006718B4 = {
+						TestTargetID = 9EB69F9B18E7261A006718B4;
+					};
+				};
+			};
+			buildConfigurationList = 9EB69F9718E7261A006718B4 /* Build configuration list for PBXProject "iamhereLauncher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9EB69F9318E7261A006718B4;
+			productRefGroup = 9EB69F9D18E7261A006718B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EB69F9B18E7261A006718B4 /* iamhereLauncher */,
+				9EB69FBC18E7261A006718B4 /* iamhereLauncherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EB69F9A18E7261A006718B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EB69FAA18E7261A006718B4 /* InfoPlist.strings in Resources */,
+				9EB69FB818E7261A006718B4 /* Images.xcassets in Resources */,
+				9EB69FB018E7261A006718B4 /* Credits.rtf in Resources */,
+				9EB69FB618E7261A006718B4 /* LauncherMainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EB69FBB18E7261A006718B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EB69FC818E7261A006718B4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EB69F9818E7261A006718B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EB69FB318E7261A006718B4 /* AppDelegate.m in Sources */,
+				9EB69FAC18E7261A006718B4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EB69FB918E7261A006718B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EB69FCA18E7261A006718B4 /* iamhereLauncherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9EB69FC218E7261A006718B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EB69F9B18E7261A006718B4 /* iamhereLauncher */;
+			targetProxy = 9EB69FC118E7261A006718B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9EB69FA818E7261A006718B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EB69FA918E7261A006718B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9EB69FAE18E7261A006718B4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EB69FAF18E7261A006718B4 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		9EB69FB418E7261A006718B4 /* LauncherMainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EB69FB518E7261A006718B4 /* Base */,
+			);
+			name = LauncherMainMenu.xib;
+			sourceTree = "<group>";
+		};
+		9EB69FC618E7261A006718B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EB69FC718E7261A006718B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9EB69FCB18E7261A006718B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9EB69FCC18E7261A006718B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9EB69FCE18E7261A006718B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iamhereLauncher/iamhereLauncher.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iamhereLauncher/iamhereLauncher-Prefix.pch";
+				INFOPLIST_FILE = "iamhereLauncher/iamhereLauncher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9EB69FCF18E7261A006718B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iamhereLauncher/iamhereLauncher.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iamhereLauncher/iamhereLauncher-Prefix.pch";
+				INFOPLIST_FILE = "iamhereLauncher/iamhereLauncher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9EB69FD118E7261A006718B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iamhereLauncher.app/Contents/MacOS/iamhereLauncher";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iamhereLauncher/iamhereLauncher-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iamhereLauncherTests/iamhereLauncherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9EB69FD218E7261A006718B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iamhereLauncher.app/Contents/MacOS/iamhereLauncher";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iamhereLauncher/iamhereLauncher-Prefix.pch";
+				INFOPLIST_FILE = "iamhereLauncherTests/iamhereLauncherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EB69F9718E7261A006718B4 /* Build configuration list for PBXProject "iamhereLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EB69FCB18E7261A006718B4 /* Debug */,
+				9EB69FCC18E7261A006718B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EB69FCD18E7261A006718B4 /* Build configuration list for PBXNativeTarget "iamhereLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EB69FCE18E7261A006718B4 /* Debug */,
+				9EB69FCF18E7261A006718B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EB69FD018E7261A006718B4 /* Build configuration list for PBXNativeTarget "iamhereLauncherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EB69FD118E7261A006718B4 /* Debug */,
+				9EB69FD218E7261A006718B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9EB69F9418E7261A006718B4 /* Project object */;
+}

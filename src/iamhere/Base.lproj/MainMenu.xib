@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4514" systemVersion="13C64" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4514"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="494" id="495"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application"/>
+        <menu id="DL5-85-FcQ">
+            <items>
+                <menuItem title="Face Detection" state="on" id="2pS-4G-WYM">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="toggleFaceDetection:" target="494" id="vyN-1o-Yrq"/>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="nHz-vW-YKV"/>
+                <menuItem title="Never Sleep" id="O0W-ww-dyW">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="toggleNeverSleep:" target="494" id="ep1-Dq-RUi"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="PLACEHOLDER" state="on" hidden="YES" id="Vjg-CX-n7n">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="toggleStayAwakeUntil:" target="494" id="9ty-qw-PP8"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Stay Awake For" id="27d-X3-Th4">
+                    <menu key="submenu" title="Stay Awake For" id="IJ7-FE-x8E">
+                        <items>
+                            <menuItem title="5 Minutes" tag="5" id="xfg-uj-jCA">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="stayAwakeFor:" target="494" id="3Ki-z9-Aah"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="10 Minutes" tag="10" id="Pus-Hk-59H">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="stayAwakeFor:" target="494" id="CuV-aO-2ek"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="15 Minutes" tag="15" id="wyd-Lp-cAw">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="stayAwakeFor:" target="494" id="7eC-zj-Xdd"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="30 Minutes" tag="30" id="5W3-hc-tHw">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="stayAwakeFor:" target="494" id="5JM-b2-i7T"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="1 Hour" tag="60" id="P6t-sw-9UM">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="stayAwakeFor:" target="494" id="UES-UD-PAR"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="2 Hours" tag="120" id="nsk-e6-reb">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="stayAwakeFor:" target="494" id="WfT-yj-WXa"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="5 Hours" tag="300" id="TdQ-KJ-ccO">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="stayAwakeFor:" target="494" id="IUA-Di-gWe"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="12 Hours" tag="720" id="Q21-Z7-vJM">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="stayAwakeFor:" target="494" id="KYi-77-HEd"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="gYA-rk-4LF"/>
+                <menuItem title="Open at Login" state="on" id="kUx-GZ-Ipa">
+                    <attributedString key="attributedTitle"/>
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="toggleLaunchAtLogin:" target="494" id="Mk3-1N-iQU"/>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="c9K-WY-Fh6"/>
+                <menuItem title="Quit" keyEquivalent="q" id="6HE-KN-ylG">
+                    <connections>
+                        <action selector="stop:" target="-3" id="uGI-Gy-F63"/>
+                    </connections>
+                </menuItem>
+            </items>
+        </menu>
+        <customObject id="494" customClass="AppDelegate">
+            <connections>
+                <outlet property="miAwakeUntil" destination="Vjg-CX-n7n" id="DLY-cx-6WK"/>
+                <outlet property="miFaceDetection" destination="2pS-4G-WYM" id="ukO-q8-S8K"/>
+                <outlet property="miLoginItem" destination="kUx-GZ-Ipa" id="BIJ-aB-Cor"/>
+                <outlet property="miNeverSleep" destination="O0W-ww-dyW" id="Ac9-mZ-WMg"/>
+                <outlet property="miQuit" destination="6HE-KN-ylG" id="wsK-fV-cfG"/>
+                <outlet property="trayMenu" destination="DL5-85-FcQ" id="6dY-w6-czU"/>
+            </connections>
+        </customObject>
+        <customObject id="420" customClass="NSFontManager"/>
+    </objects>
+</document>
