@@ -8,4 +8,10 @@ I Am Here predicts when your screen is about to sleep. It activates the webcam m
 
 You can also instruct I Am Here to postpone standby by a number of minutes or hours, or to never let your computer sleep.
 
-If you’re just interested in the app, and not the source code, you will want to download the DMG [here](https://jdevuyst.appspot.com/apps/2014/iamhere/iamhere.dmg).
+## Known Issues
+
+I Am Here is fairly battery hungry when face detection is turned on. This is particularly the case for laptops with discrete GPUs. Moreover, I Am Here is somewhat less reliable than some of the (non-gratis) alternatives in the App Store. The APIs for preventing the display from sleeping are not documented well, and at some point I found that I Am Here was working ‘well enough’ for my own purposes so I stopped trying to make it more reliable.
+
+## Download
+
+If you’re interested in running the app, rather than looking at the source code, you will want to download the DMG [here](https://jdevuyst.appspot.com/apps/2014/iamhere/iamhere.dmg).
